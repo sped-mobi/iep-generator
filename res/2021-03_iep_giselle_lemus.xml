@@ -48,17 +48,23 @@
         <PresentLevel subject="Reading">
             <MasteredGoal>
                 <Conditions>when given text read aloud using simplified language, pictures paired with text, and three (3) options for answer choices</Conditions>
-                <Behavior>Giselle will recognize how elements of fiction contribute to plot development from the story independently</Behavior>
+                <Behavior>recognize how elements of fiction contribute to plot development from the story independently</Behavior>
                 <Measure>70% of the time</Measure>
                 <Objective>describe a story's plot by answering problem/solution questions via pointing, stating, or writing her answer independently</Objective>
                 <Objective>support her understanding of elements of a story by pointing, stating, or writing her answer independently</Objective>
             </MasteredGoal>
-            <ULSBenchmarkData>
-                <ULSBenchmark name="Basic Math" date="2021-03-23">
-                  <BenchmarkTest name="" correct="" total=""/>
-                </ULSBenchmark>
-            </ULSBenchmarkData>
-            <WillBeginWorkOn></WillBeginWorkOn>
+            <Data>
+                <Benchmark name="Basic Math" date="2021-03-23">
+                  <Test name="Numbers and Counting to 20" correct="17" total="18"/>
+                </Benchmark>
+            </Data>
+            <CurrentGoal>
+              <Skill></Skill>
+              <Reason></Reason>
+            </CurrentGoal>
         </PresentLevel>
+      <PresentLevel subject="Social Studies">
+        <MasteredGoal></MasteredGoal>
+      </PresentLevel>
     </PresentLevels>
 </IndividualizedEducationPlan>
