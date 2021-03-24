@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29006.145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeGenerator", "tools\CodeGenerator\CodeGenerator.csproj", "{1C7AF6A1-3C9E-40B6-A07B-1332C720E923}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{25E322E9-1536-48D9-B152-C923A7069849}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		global.json = global.json
+		NuGet.config = NuGet.config
+		README.md = README.md
+		eng\Version.Details.xml = eng\Version.Details.xml
+		eng\Versions.props = eng\Versions.props
+		eng\VisualStudio.props = eng\VisualStudio.props
+		eng\VisualStudio.targets = eng\VisualStudio.targets
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iep-generator", "src\iep-generator\iep-generator.csproj", "{9FF497EA-ABE6-4197-9DA2-905C7181C0C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{3FB9C5FF-39D9-4500-9A29-7168CA4A9A45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C7AF6A1-3C9E-40B6-A07B-1332C720E923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7AF6A1-3C9E-40B6-A07B-1332C720E923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF497EA-ABE6-4197-9DA2-905C7181C0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF497EA-ABE6-4197-9DA2-905C7181C0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF497EA-ABE6-4197-9DA2-905C7181C0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF497EA-ABE6-4197-9DA2-905C7181C0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C7AF6A1-3C9E-40B6-A07B-1332C720E923} = {3FB9C5FF-39D9-4500-9A29-7168CA4A9A45}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {198FD3D0-8F40-467A-AB28-A0460A14E7EE}
+	EndGlobalSection
+EndGlobal

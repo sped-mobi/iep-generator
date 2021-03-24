@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<IndividualizedEducationPlan>
+    <StudentData>
+        <FirstName>Giselle</FirstName>
+        <LastName>Lemus</LastName>
+        <GradeLevel>7th</GradeLevel>
+        <PrimaryDisability>Other Health Impairment</PrimaryDisability>
+        <SecondaryDisability>Intellectual Disability</SecondaryDisability>
+        <TertiaryDisability>Speech Impairment</TertiaryDisability>
+        <Gender>female</Gender>
+        <UniqueLearningSystemLevel>1</UniqueLearningSystemLevel>
+    </StudentData>
+    <AccommodationsList>
+        <AccommodationCategory name="Adapt Classroom Instruction">
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Extra time for oral responses</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Frequent and consistent breaks</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Optional virtual/online instruction delivery</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Gain student's attention before directions</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Restate and expand on what student says</AccommodationItem>
+        </AccommodationCategory>
+        <AccommodationCategory name="Adapted or Additional Materials">
+            <AccommodationItem ac="" acc="" acs="X" aea="" aph="" ams="" ppe="" elec="">Math Manipulatives: Base Ten Blocks</AccommodationItem>
+            <AccommodationItem ac="" acc="" acs="X" aea="X" aph="" ams="" ppe="" elec="">Math Manipulatives: Basic Calculator</AccommodationItem>
+            <AccommodationItem ac="" acc="" acs="X" aea="" aph="" ams="" ppe="" elec="">Math Manipulatives: Clocks</AccommodationItem>
+            <AccommodationItem ac="" acc="" acs="X" aea="X" aph="" ams="" ppe="" elec="">Math Manipulatives: Counters (e.g., two-sided chips, rekenrek, dot cards, 10-frame cards, etc.)</AccommodationItem>
+            <AccommodationItem ac="" acc="" acs="X" aea="" aph="" ams="" ppe="" elec="">Math Manipulatives: Real or Play Money</AccommodationItem>
+        </AccommodationCategory>
+        <AccommodationCategory name="Applied Learning Environment (ALE)">
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Accept incomplete, partial, or alternate assignments</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Alternate Curriculum - Unique Learning System®</AccommodationItem>
+            <AccommodationItem ac="" acc="" acs="" aea="" aph="" ams="" ppe="X" elec="X">Exemption from final/semester tests</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Extended wait time for responses</AccommodationItem>
+            <AccommodationItem ac="" acc="" acs="" aea="" aph="" ams="" ppe="X" elec="X">Grades based on Grading Rubric for Academic and Participation in a General Education Setting</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="" elec="">Grades based on Grading Rubric for Academic and Participation in a Special Education Setting</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Information presented orally</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Pictures paired with text</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Three (3) options for answer choices</AccommodationItem>
+        </AccommodationCategory>
+        <AccommodationCategory name="Manage Behavior">
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Clearly defined/consistent limits</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Positive reinforcement</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Preferential seating</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Repeated verbal directions</AccommodationItem>
+            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Visual and verbal reminders to stay on task</AccommodationItem>
+        </AccommodationCategory>
+    </AccommodationsList>
+    <PresentLevels>
+        <PresentLevel subject="Reading">
+            <MasteredGoal>
+                <Conditions>when given text read aloud using simplified language, pictures paired with text, and three (3) options for answer choices</Conditions>
+                <Behavior>Giselle will recognize how elements of fiction contribute to plot development from the story independently</Behavior>
+                <Measure>70% of the time</Measure>
+                <Objective>describe a story's plot by answering problem/solution questions via pointing, stating, or writing her answer independently</Objective>
+                <Objective>support her understanding of elements of a story by pointing, stating, or writing her answer independently</Objective>
+            </MasteredGoal>
+            <ULSBenchmarkData>
+                <ULSBenchmark name="Basic Math" date="2021-03-23">
+                  <BenchmarkTest name="" correct="" total=""/>
+                </ULSBenchmark>
+            </ULSBenchmarkData>
+            <WillBeginWorkOn></WillBeginWorkOn>
+        </PresentLevel>
+    </PresentLevels>
+</IndividualizedEducationPlan>
