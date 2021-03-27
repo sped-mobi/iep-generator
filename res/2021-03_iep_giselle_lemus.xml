@@ -1,70 +1,257 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <IndividualizedEducationPlan>
-    <StudentData>
-        <FirstName>Giselle</FirstName>
-        <LastName>Lemus</LastName>
-        <GradeLevel>7th</GradeLevel>
-        <PrimaryDisability>Other Health Impairment</PrimaryDisability>
-        <SecondaryDisability>Intellectual Disability</SecondaryDisability>
-        <TertiaryDisability>Speech Impairment</TertiaryDisability>
-        <Gender>female</Gender>
-        <UniqueLearningSystemLevel>1</UniqueLearningSystemLevel>
-    </StudentData>
-    <AccommodationsList>
-        <AccommodationCategory name="Adapt Classroom Instruction">
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Extra time for oral responses</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Frequent and consistent breaks</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Optional virtual/online instruction delivery</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Gain student's attention before directions</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Restate and expand on what student says</AccommodationItem>
-        </AccommodationCategory>
-        <AccommodationCategory name="Adapted or Additional Materials">
-            <AccommodationItem ac="" acc="" acs="X" aea="" aph="" ams="" ppe="" elec="">Math Manipulatives: Base Ten Blocks</AccommodationItem>
-            <AccommodationItem ac="" acc="" acs="X" aea="X" aph="" ams="" ppe="" elec="">Math Manipulatives: Basic Calculator</AccommodationItem>
-            <AccommodationItem ac="" acc="" acs="X" aea="" aph="" ams="" ppe="" elec="">Math Manipulatives: Clocks</AccommodationItem>
-            <AccommodationItem ac="" acc="" acs="X" aea="X" aph="" ams="" ppe="" elec="">Math Manipulatives: Counters (e.g., two-sided chips, rekenrek, dot cards, 10-frame cards, etc.)</AccommodationItem>
-            <AccommodationItem ac="" acc="" acs="X" aea="" aph="" ams="" ppe="" elec="">Math Manipulatives: Real or Play Money</AccommodationItem>
-        </AccommodationCategory>
-        <AccommodationCategory name="Applied Learning Environment (ALE)">
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Accept incomplete, partial, or alternate assignments</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Alternate Curriculum - Unique Learning System®</AccommodationItem>
-            <AccommodationItem ac="" acc="" acs="" aea="" aph="" ams="" ppe="X" elec="X">Exemption from final/semester tests</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Extended wait time for responses</AccommodationItem>
-            <AccommodationItem ac="" acc="" acs="" aea="" aph="" ams="" ppe="X" elec="X">Grades based on Grading Rubric for Academic and Participation in a General Education Setting</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="" elec="">Grades based on Grading Rubric for Academic and Participation in a Special Education Setting</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Information presented orally</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Pictures paired with text</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Three (3) options for answer choices</AccommodationItem>
-        </AccommodationCategory>
-        <AccommodationCategory name="Manage Behavior">
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Clearly defined/consistent limits</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Positive reinforcement</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Preferential seating</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Repeated verbal directions</AccommodationItem>
-            <AccommodationItem ac="X" acc="X" acs="X" aea="X" aph="X" ams="X" ppe="X" elec="X">Visual and verbal reminders to stay on task</AccommodationItem>
-        </AccommodationCategory>
-    </AccommodationsList>
-    <PresentLevels>
-        <PresentLevel subject="Reading">
-            <MasteredGoal>
-                <Conditions>when given text read aloud using simplified language, pictures paired with text, and three (3) options for answer choices</Conditions>
-                <Behavior>recognize how elements of fiction contribute to plot development from the story independently</Behavior>
-                <Measure>70% of the time</Measure>
-                <Objective>describe a story's plot by answering problem/solution questions via pointing, stating, or writing her answer independently</Objective>
-                <Objective>support her understanding of elements of a story by pointing, stating, or writing her answer independently</Objective>
-            </MasteredGoal>
-            <Data>
-                <Benchmark name="Basic Math" date="2021-03-23">
-                  <Test name="Numbers and Counting to 20" correct="17" total="18"/>
-                </Benchmark>
-            </Data>
-            <CurrentGoal>
-              <Skill></Skill>
-              <Reason></Reason>
-            </CurrentGoal>
-        </PresentLevel>
-      <PresentLevel subject="Social Studies">
-        <MasteredGoal></MasteredGoal>
-      </PresentLevel>
-    </PresentLevels>
+  <StudentData>
+    <FirstName>Giselle</FirstName>
+    <LastName>Lemus</LastName>
+    <Gender>F</Gender>
+    <GradeLevel>7th</GradeLevel>
+    <PrimaryDisability>Other Health Impairment</PrimaryDisability>
+    <SecondaryDisability>Intellectual Disability</SecondaryDisability>
+    <TertiaryDisability>Speech Impairment</TertiaryDisability>
+  </StudentData>
+  <AccommodationsList>
+    <AccommodationCategory name="Adapt Classroom Instruction">
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">E1tra time for oral responses</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Frequent and consistent breaks</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Optional virtual/online instruction delivery</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Gain student's attention before directions</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Restate and e1pand on what student says</AccommodationItem>
+    </AccommodationCategory>
+    <AccommodationCategory name="Adapted or Additional Materials">
+      <AccommodationItem acs="1">Math Manipulatives: Base Ten Blocks</AccommodationItem>
+      <AccommodationItem acs="1" aea="1">Math Manipulatives: Basic Calculator</AccommodationItem>
+      <AccommodationItem acs="1">Math Manipulatives: Clocks</AccommodationItem>
+      <AccommodationItem acs="1" aea="1">Math Manipulatives: Counters (e.g., two-sided chips, rekenrek, dot cards, 10-frame cards, etc.)</AccommodationItem>
+      <AccommodationItem acs="1">Math Manipulatives: Real or Play Money</AccommodationItem>
+    </AccommodationCategory>
+    <AccommodationCategory name="Applied Learning Environment (ALE)">
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Accept incomplete, partial, or alternate assignments</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Alternate Curriculum - Unique Learning System®</AccommodationItem>
+      <AccommodationItem ppe="1" elec="1">E1emption from final/semester tests</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">E1tended wait time for responses</AccommodationItem>
+      <AccommodationItem ppe="1" elec="1">Grades based on Grading Rubric for Academic and Participation in a General Education Setting</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1">Grades based on Grading Rubric for Academic and Participation in a Special Education Setting</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Information presented orally</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Pictures paired with te1t</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Three (3) options for answer choices</AccommodationItem>
+    </AccommodationCategory>
+    <AccommodationCategory name="Manage Behavior">
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Clearly defined/consistent limits</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Positive reinforcement</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Preferential seating</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Repeated verbal directions</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Visual and verbal reminders to stay on task</AccommodationItem>
+    </AccommodationCategory>
+  </AccommodationsList>
+  <PresentLevels>
+    <PresentLevel subject="Reading">
+      <MasteredGoals>
+        <MasteredGoal>
+          <Conditions>when given te1t read aloud using simplified language, pictures paired with te1t, and three (3) options for answer choices</Conditions>
+          <Behavior>recognize how elements of fiction contribute to plot development from the story independently</Behavior>
+          <Measure>70% of the time</Measure>
+          <MasteredObjectives>
+            <MasteredObjective>describe a story's plot by answering problem/solution questions via pointing, stating, or writing her answer independently</MasteredObjective>
+            <MasteredObjective>support her understanding of elements of a story by pointing, stating, or writing her answer independently</MasteredObjective>
+          </MasteredObjectives>
+        </MasteredGoal>
+      </MasteredGoals>
+      <GoalData>
+        <Benchmark name="Reading" date="2021-03-25">
+          <BenchmarkTest name="Initial Letters" correct="14" total="18" rating="Instructional"/>
+          <BenchmarkTest name="Word Rhymes" correct="14" total="18" rating="Instructional"/>
+          <BenchmarkTest name="Word Recognition List 1" correct="2" total="18" rating="Review/Revise"/>
+          <BenchmarkTest name="Word Recognition List 2" correct="9" total="18" rating="Emerging"/>
+          <BenchmarkTest name="Word Recognition List 3" correct="8" total="18" rating="Emerging"/>
+          <BenchmarkTest name="Reading With Symbols" correct="14" total="44" rating="Instructional"/>
+          <BenchmarkTest name="Listening Comprehension" correct="9" total="18" rating="Instructional"/>
+          <BenchmarkTest name="Final Letters" correct="12" total="18" rating="Instructional"/>
+        </Benchmark>
+      </GoalData>
+    </PresentLevel>
+    <PresentLevel subject="Social Studies">
+      <MasteredGoals>
+        <MasteredGoal>
+          <Conditions>when given text read aloud using simplified language, pictures paired with text, three answer choices, frequent redirection, and appropriate wait time and encouragement for responses</Conditions>
+          <Behavior>understand the location and characteristics of the regions of Texas</Behavior>
+          <Measure>70% of the time</Measure>
+          <MasteredObjectives>
+            <MasteredObjective>identify the Mountains, Great Plains, and Coastal Plains regions of Texas by placing pictures with text onto a map of Texas in the appropriate area of the identified region</MasteredObjective>
+            <MasteredObjective>will locate places of importance in Texas such as major cities on a map of Texas by placing symbols/names on a map in the correct location of each city</MasteredObjective>
+          </MasteredObjectives>
+        </MasteredGoal>
+      </MasteredGoals>
+    </PresentLevel>
+    <PresentLevel subject="Written Expression">
+      <MasteredGoals>
+        <MasteredGoal>
+          <Conditions>when given a communication board and/or pictures paired with text, verbal redirections, verbal indirect cues, a sentence to complete with the missing noun and adjective with a picture of an activity, frequent redirection, and one to two step instructions</Conditions>
+          <Behavior>identify new vocabulary words by using a variety of strategies independently</Behavior>
+          <Measure>70% of the time</Measure>
+          <MasteredObjectives>
+            <MasteredObjective>select the correct noun to complete a sentence by pointing, stating, and writing the correct answer independently</MasteredObjective>
+            <MasteredObjective>select the correct verb to complete a sentence by pointing, stating, and writing the correct answer independently</MasteredObjective>
+          </MasteredObjectives>
+        </MasteredGoal>
+      </MasteredGoals>
+    </PresentLevel>
+    <PresentLevel subject="Math">
+      <MasteredGoals>
+        <MasteredGoal>
+          <Conditions>when provided numerical text read aloud using simplified language, pictures paired with text, and math manipulatives</Conditions>
+          <Behavior>apply mathematical process standards to add and subtract single digit numbers while solving problems</Behavior>
+          <Measure>with 70% accuracy</Measure>
+          <MasteredObjectives>
+            <MasteredObjective>add and subtract rational numbers fluently</MasteredObjective>
+            <MasteredObjective>solve problems using addition and subtraction of rational numbers</MasteredObjective>
+          </MasteredObjectives>
+        </MasteredGoal>
+      </MasteredGoals>
+      <GoalData>
+        <Benchmark name="Basic Math" date="2021-03-23">
+          <BenchmarkTest name="Numbers and Counting to 20" correct="16" total="18" rating="Mastery"/>
+          <BenchmarkTest name="Coins/Bills and Value" correct="11" total="18" rating="Instructional"/>
+          <BenchmarkTest name="Telling Time" correct="13" total="18" rating="Instructional"/>
+          <BenchmarkTest name="Math: Shapes" correct="11" total="18" rating="Mastery"/>
+          <BenchmarkTest name="Math: Measurements" correct="18" total="18" rating="Mastery"/>
+          <BenchmarkTest name="Math: Fractions" correct="14" total="18" rating="Instructional"/>
+        </Benchmark>
+      </GoalData>
+    </PresentLevel>
+    <PresentLevel subject="Science">
+      <MasteredGoals>
+        <MasteredGoal>
+          <Conditions>when given text read aloud using simplified language, pictures paired with text, three answer choices, frequent redirection, and appropriate wait time and encouragement for responses</Conditions>
+          <Behavior>demonstrate her understanding of interactions that occur between matter and energy</Behavior>
+          <Measure>70% of the time</Measure>
+          <MasteredObjectives>
+            <MasteredObjective>recognize that radiant energy from the Sun is transformed into chemical energy through the process of photosynthesis</MasteredObjective>
+            <MasteredObjective>show the flow of energy through living systems of food chains</MasteredObjective>
+          </MasteredObjectives>
+        </MasteredGoal>
+      </MasteredGoals>
+    </PresentLevel>
+  </PresentLevels>
+  <MeasurableAnnualGoals>
+    <MeasurableAnnualGoal number="1" focus="Applied Communications (Reading)" academic="1">
+      <TimeFrame>From ARD year to ARD year</TimeFrame>
+      <Conditions>when given positive reinforcement, repeated verbal directions, and extended wait time for responses</Conditions>
+      <Behavior>Giselle will use a variety of strategies to demonstrate understanding of new high-frequency and vocabulary words</Behavior>
+      <Measure>with 70% accuracy</Measure>
+      <Objectives>
+        <Objective code="1.1">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions>when given pictures paired with text, three (3) options for answer choices, and 18 high-frequency word questions from the current Unique Learning System Unit</Conditions>
+          <Behavior>Giselle will select the correct high-frequency word by pointing to the correct word card when given a command to do so</Behavior>
+          <Measure>with 70% accuracy</Measure>
+        </Objective>
+        <Objective code="1.2">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions>when given pictures paired with text, three (3) options for answer choices, and 20 randomly assorted vocabulary word cards with corresponding definitions (i.e., 10 words/10 definitions) from the current Unique Learning System Unit</Conditions>
+          <Behavior>Giselle will match each vocabulary word card to its corresponding definition card</Behavior>
+          <Measure>with 70% accuracy</Measure>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+    <MeasurableAnnualGoal number="2" focus="Applied Consumer Skills (Math)">
+      <TimeFrame>From ARD year to ARD year</TimeFrame>
+      <Conditions></Conditions>
+      <Behavior></Behavior>
+      <Measure></Measure>
+      <Objectives>
+        <Objective code="2.1">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Measure></Measure>
+        </Objective>
+        <Objective code="2.2">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Measure></Measure>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+    <MeasurableAnnualGoal number="3" focus="Applied Environmental Awareness (Science)">
+      <TimeFrame>From ARD year to ARD year</TimeFrame>
+      <Conditions></Conditions>
+      <Behavior></Behavior>
+      <Measure></Measure>
+      <Objectives>
+        <Objective code="3.1">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Measure></Measure>
+        </Objective>
+        <Objective code="3.2">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Measure></Measure>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+    <MeasurableAnnualGoal number="4" focus="Applied Community Citizenship (Social Studies)">
+      <TimeFrame>From ARD year to ARD year</TimeFrame>
+      <Conditions></Conditions>
+      <Behavior></Behavior>
+      <Measure></Measure>
+      <Objectives>
+        <Objective code="4.1">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Measure></Measure>
+        </Objective>
+        <Objective code="4.2">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Measure></Measure>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+    <MeasurableAnnualGoal number="5" focus="Applied Personal Health &amp; Hygeine (Health)">
+      <TimeFrame>From ARD year to ARD year</TimeFrame>
+      <Conditions></Conditions>
+      <Behavior></Behavior>
+      <Measure></Measure>
+      <Objectives>
+        <Objective code="5.1">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Measure></Measure>
+        </Objective>
+        <Objective code="5.2">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Measure></Measure>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+    <MeasurableAnnualGoal number="6" focus="Applied Marketable Skills">
+      <TimeFrame>From ARD year to ARD year</TimeFrame>
+      <Conditions></Conditions>
+      <Behavior></Behavior>
+      <Measure></Measure>
+      <Objectives>
+        <Objective code="6.1">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Measure></Measure>
+        </Objective>
+        <Objective code="6.2">
+          <TimeFrame>From ARD year to ARD year</TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Measure></Measure>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+  </MeasurableAnnualGoals>
 </IndividualizedEducationPlan>

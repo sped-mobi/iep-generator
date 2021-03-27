@@ -18,10 +18,11 @@
 
   <ItemGroup>
     <Content Include="..\..\res\2021-03_iep_giselle_lemus.xml" Link="Models\2021-03_iep_giselle_lemus.xml" />
+    <Content Include="..\..\res\iep-generator.xsd" Link="Models\iep-generator.xsd" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    
   </ItemGroup>
 
 

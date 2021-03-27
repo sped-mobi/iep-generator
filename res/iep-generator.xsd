@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- #region Attribute Groups -->
+
+  <xs:attributeGroup name="BenchmarkAttributes">
+    <xs:attribute name="name" type="xs:string" />
+    <xs:attribute name="date" type="xs:date" />
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="BenchmarkTestAttributes">
+    <xs:attribute name="name" type="xs:string" />
+    <xs:attribute name="correct" type="BenchmarkQuestionRange" />
+    <xs:attribute name="total" type="BenchmarkQuestionRange" default="18" />
+    <xs:attribute name="rating" type="BenchmarkRating" />
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="AccommodationItemAttributes">
+    <xs:attribute name="ac" type="xs:boolean" use="optional" default="0" />
+    <xs:attribute name="acc" type="xs:boolean" use="optional" default="0" />
+    <xs:attribute name="acs" type="xs:boolean" use="optional" default="0" />
+    <xs:attribute name="aea" type="xs:boolean" use="optional" default="0" />
+    <xs:attribute name="aph" type="xs:boolean" use="optional" default="0" />
+    <xs:attribute name="ams" type="xs:boolean" use="optional" default="0" />
+    <xs:attribute name="ppe" type="xs:boolean" use="optional" default="0" />
+    <xs:attribute name="elec" type="xs:boolean" use="optional" default="0" />
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="AccommodationCategoryAttributes">
+    <xs:attribute name="name" type="xs:string" />
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="PresentLevelAttributes">
+    <xs:attribute name="subject" type="PresentLevelSubject" />
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="MeasurableAnnualGoalAttributes">
+    <xs:attribute name="number" type="xs:int" />
+    <xs:attribute name="focus" type="GoalFocus" />
+    <xs:attribute name="transition" type="xs:boolean" use="optional" default="false" />
+    <xs:attribute name="academic" type="xs:boolean" use="optional" default="false" />
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="ObjectiveAttributes">
+    <xs:attribute name="code" type="xs:string" />
+  </xs:attributeGroup>
+
+  <!-- #endregion -->
+
+  <!-- #region Groups -->
+
+  <xs:group name="DataGroup">
+    <xs:choice>
+      <xs:element ref="Benchmark" />
+    </xs:choice>
+  </xs:group>
+
+  <xs:group name="StandardsBasedGoalItems">
+    <xs:sequence>
+      <xs:element ref="TimeFrame" />
+      <xs:element ref="Conditions" />
+      <xs:element ref="Behavior" />
+      <xs:element ref="Measure" />
+    </xs:sequence>
+  </xs:group>
+
+  <!-- #endregion -->
+
+  <!-- #region Elements -->
+
+  <xs:element name="FirstName" type="xs:string" />
+  <xs:element name="LastName" type="xs:string" />
+  <xs:element name="GradeLevel" type="GradeLevel" />
+  <xs:element name="Gender" type="Gender" />
+  <xs:element name="PrimaryDisability" type="Disability" />
+  <xs:element name="SecondaryDisability" type="Disability" />
+  <xs:element name="TertiaryDisability" type="Disability" />
+
+  <xs:element name="IndividualizedEducationPlan" type="IndividualizedEducationPlan" />
+  <xs:element name="StudentData" type="StudentData" />
+  <xs:element name="MasteredGoal" type="MasteredGoal" />
+  <xs:element name="MasteredGoals" type="MasteredGoals" />
+  <xs:element name="TimeFrame" type="xs:string" />
+  <xs:element name="Conditions" type="xs:string" />
+  <xs:element name="Behavior" type="xs:string" />
+  <xs:element name="Measure" type="xs:string" />
+  <xs:element name="MasteredObjectives" type="MasteredObjectives" />
+  <xs:element name="MasteredObjective" type="xs:string" />
+  <xs:element name="GoalData" type="GoalData" />
+  <xs:element name="Benchmark" type="Benchmark" />
+  <xs:element name="BenchmarkTest" type="BenchmarkTest" />
+  <xs:element name="AccommodationsList" type="AccommodationsList" />
+  <xs:element name="AccommodationCategory" type="AccommodationCategory" />
+  <xs:element name="AccommodationItem" type="AccommodationItem" />
+  <xs:element name="PresentLevels" type="PresentLevels" />
+  <xs:element name="PresentLevel" type="PresentLevel" />
+  <xs:element name="Statement" type="xs:string" />
+  <xs:element name="MeasurableAnnualGoals" type="MeasurableAnnualGoals" />
+  <xs:element name="MeasurableAnnualGoal" type="MeasurableAnnualGoal" />
+  <xs:element name="Objectives" type="Objectives" />
+  <xs:element name="Objective" type="Objective" />
+
+  <!-- #endregion -->
+
+  <!-- #region ComplexTypes -->
+
+  <xs:complexType name="IndividualizedEducationPlan">
+    <xs:sequence>
+      <xs:element ref="StudentData"/>
+      <xs:element ref="AccommodationsList" />
+      <xs:element ref="PresentLevels" />
+      <xs:element ref="MeasurableAnnualGoals" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="StudentData">
+    <xs:sequence>
+      <xs:element ref="FirstName" />
+      <xs:element ref="LastName" />
+      <xs:element ref="Gender" />
+      <xs:element ref="GradeLevel" />
+      <xs:element ref="PrimaryDisability" />
+      <xs:element ref="SecondaryDisability" minOccurs="0" />
+      <xs:element ref="TertiaryDisability" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="AccommodationsList">
+    <xs:sequence>
+      <xs:element ref="AccommodationCategory" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="AccommodationCategory">
+    <xs:sequence>
+      <xs:element ref="AccommodationItem" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+    <xs:attributeGroup ref="AccommodationCategoryAttributes" />
+  </xs:complexType>
+
+  <xs:complexType name="AccommodationItem" mixed="true">
+    <xs:attributeGroup ref="AccommodationItemAttributes" />
+  </xs:complexType>
+
+  <xs:complexType name="PresentLevels">
+    <xs:sequence>
+      <xs:element ref="PresentLevel" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="PresentLevel">
+    <xs:sequence>
+      <xs:element ref="MasteredGoals" minOccurs="0" />
+      <xs:element ref="GoalData" minOccurs="0" />
+      <xs:element ref="Statement" minOccurs="0" />
+    </xs:sequence>
+    <xs:attributeGroup ref="PresentLevelAttributes" />
+  </xs:complexType>
+
+  <xs:complexType name="MasteredGoals">
+    <xs:sequence>
+      <xs:element ref="MasteredGoal" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="MasteredGoal">
+    <xs:sequence>
+      <xs:element ref="Conditions" />
+      <xs:element ref="Behavior" />
+      <xs:element ref="Measure" />
+      <xs:element ref="MasteredObjectives" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="MasteredObjectives">
+    <xs:sequence>
+      <xs:element ref="MasteredObjective" minOccurs="2" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="GoalData">
+    <xs:sequence>
+      <xs:group ref="DataGroup" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Benchmark">
+    <xs:sequence>
+      <xs:element ref="BenchmarkTest" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+    <xs:attributeGroup ref="BenchmarkAttributes" />
+  </xs:complexType>
+
+  <xs:complexType name="BenchmarkTest">
+    <xs:attributeGroup ref="BenchmarkTestAttributes" />
+  </xs:complexType>
+
+  <xs:complexType name="MeasurableAnnualGoals">
+    <xs:sequence>
+      <xs:element ref="MeasurableAnnualGoal" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="MeasurableAnnualGoal">
+    <xs:sequence>
+      <xs:group ref="StandardsBasedGoalItems" />
+      <xs:element ref="Objectives" />
+    </xs:sequence>
+    <xs:attributeGroup ref="MeasurableAnnualGoalAttributes" />
+  </xs:complexType>
+
+  <xs:complexType name="Objectives">
+    <xs:sequence>
+      <xs:element ref="Objective" minOccurs="2" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Objective">
+    <xs:sequence>
+      <xs:group ref="StandardsBasedGoalItems" />
+    </xs:sequence>
+    <xs:attributeGroup ref="ObjectiveAttributes" />
+  </xs:complexType>
+
+  <!-- #endregion -->
+
+  <!-- #region SimpleTypes -->
+
+  <xs:simpleType name="BenchmarkRating">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Mastery" />
+      <xs:enumeration value="Instructional" />
+      <xs:enumeration value="Emerging" />
+      <xs:enumeration value="Review/Revise" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="GradeLevel">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="6th" />
+      <xs:enumeration value="7th" />
+      <xs:enumeration value="8th" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Disability">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Orthopedic Impairment" />
+      <xs:enumeration value="Other Health Impairment" />
+      <xs:enumeration value="Auditory Impairment" />
+      <xs:enumeration value="Visual Impairment" />
+      <xs:enumeration value="Deaf-Blind" />
+      <xs:enumeration value="Intellectual Disability" />
+      <xs:enumeration value="Emotional Disturbance" />
+      <xs:enumeration value="Learning Disability" />
+      <xs:enumeration value="Speech Impairment" />
+      <xs:enumeration value="Autism" />
+      <xs:enumeration value="Developmental Delay" />
+      <xs:enumeration value="Traumatic Brain Injury" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Gender">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="M" />
+      <xs:enumeration value="F" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="BenchmarkQuestionRange">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="44" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="PresentLevelSubject">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Reading" />
+      <xs:enumeration value="Social Studies" />
+      <xs:enumeration value="Written Expression" />
+      <xs:enumeration value="Math" />
+      <xs:enumeration value="Science" />
+      <xs:enumeration value="Functional" />
+      <xs:enumeration value="Social/Emotional" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="GoalFocus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Applied Communications (Reading)" />
+      <xs:enumeration value="Applied Consumer Skills (Math)" />
+      <xs:enumeration value="Applied Environmental Awareness (Science)" />
+      <xs:enumeration value="Applied Community Citizenship (Social Studies)" />
+      <xs:enumeration value="Applied Personal Health &amp; Hygeine (Health)" />
+      <xs:enumeration value="Applied Marketable Skills" />
+      <xs:enumeration value="Applied Activities of Daily Living" />
+      <xs:enumeration value="Functional" />
+      <xs:enumeration value="Social/Emotional" />
+      <xs:enumeration value="Speech Therapy" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- #endregion -->
+
+</xs:schema>
