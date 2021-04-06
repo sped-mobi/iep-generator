@@ -11,11 +11,11 @@
   </StudentData>
   <AccommodationsList>
     <AccommodationCategory name="Adapt Classroom Instruction">
-      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">E1tra time for oral responses</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Extra time for oral responses</AccommodationItem>
       <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Frequent and consistent breaks</AccommodationItem>
       <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Optional virtual/online instruction delivery</AccommodationItem>
       <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Gain student's attention before directions</AccommodationItem>
-      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Restate and e1pand on what student says</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Restate and expand on what student says</AccommodationItem>
     </AccommodationCategory>
     <AccommodationCategory name="Adapted or Additional Materials">
       <AccommodationItem acs="1">Math Manipulatives: Base Ten Blocks</AccommodationItem>
@@ -27,12 +27,12 @@
     <AccommodationCategory name="Applied Learning Environment (ALE)">
       <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Accept incomplete, partial, or alternate assignments</AccommodationItem>
       <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Alternate Curriculum - Unique Learning System®</AccommodationItem>
-      <AccommodationItem ppe="1" elec="1">E1emption from final/semester tests</AccommodationItem>
-      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">E1tended wait time for responses</AccommodationItem>
+      <AccommodationItem ppe="1" elec="1">Exemption from final/semester tests</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Extended wait time for responses</AccommodationItem>
       <AccommodationItem ppe="1" elec="1">Grades based on Grading Rubric for Academic and Participation in a General Education Setting</AccommodationItem>
       <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1">Grades based on Grading Rubric for Academic and Participation in a Special Education Setting</AccommodationItem>
       <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Information presented orally</AccommodationItem>
-      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Pictures paired with te1t</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Pictures paired with text</AccommodationItem>
       <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Three (3) options for answer choices</AccommodationItem>
     </AccommodationCategory>
     <AccommodationCategory name="Manage Behavior">
@@ -47,9 +47,9 @@
     <PresentLevel subject="Reading">
       <MasteredGoals>
         <MasteredGoal>
-          <Conditions>when given te1t read aloud using simplified language, pictures paired with te1t, and three (3) options for answer choices</Conditions>
+          <Conditions>when given text read aloud using simplified language, pictures paired with text, and three (3) options for answer choices</Conditions>
           <Behavior>recognize how elements of fiction contribute to plot development from the story independently</Behavior>
-          <Measure>70% of the time</Measure>
+          <Criterion>70% of the time</Criterion>
           <MasteredObjectives>
             <MasteredObjective>describe a story's plot by answering problem/solution questions via pointing, stating, or writing her answer independently</MasteredObjective>
             <MasteredObjective>support her understanding of elements of a story by pointing, stating, or writing her answer independently</MasteredObjective>
@@ -74,7 +74,7 @@
         <MasteredGoal>
           <Conditions>when given text read aloud using simplified language, pictures paired with text, three answer choices, frequent redirection, and appropriate wait time and encouragement for responses</Conditions>
           <Behavior>understand the location and characteristics of the regions of Texas</Behavior>
-          <Measure>70% of the time</Measure>
+          <Criterion>70% of the time</Criterion>
           <MasteredObjectives>
             <MasteredObjective>identify the Mountains, Great Plains, and Coastal Plains regions of Texas by placing pictures with text onto a map of Texas in the appropriate area of the identified region</MasteredObjective>
             <MasteredObjective>will locate places of importance in Texas such as major cities on a map of Texas by placing symbols/names on a map in the correct location of each city</MasteredObjective>
@@ -87,7 +87,7 @@
         <MasteredGoal>
           <Conditions>when given a communication board and/or pictures paired with text, verbal redirections, verbal indirect cues, a sentence to complete with the missing noun and adjective with a picture of an activity, frequent redirection, and one to two step instructions</Conditions>
           <Behavior>identify new vocabulary words by using a variety of strategies independently</Behavior>
-          <Measure>70% of the time</Measure>
+          <Criterion>70% of the time</Criterion>
           <MasteredObjectives>
             <MasteredObjective>select the correct noun to complete a sentence by pointing, stating, and writing the correct answer independently</MasteredObjective>
             <MasteredObjective>select the correct verb to complete a sentence by pointing, stating, and writing the correct answer independently</MasteredObjective>
@@ -100,7 +100,7 @@
         <MasteredGoal>
           <Conditions>when provided numerical text read aloud using simplified language, pictures paired with text, and math manipulatives</Conditions>
           <Behavior>apply mathematical process standards to add and subtract single digit numbers while solving problems</Behavior>
-          <Measure>with 70% accuracy</Measure>
+          <Criterion>with 70% accuracy</Criterion>
           <MasteredObjectives>
             <MasteredObjective>add and subtract rational numbers fluently</MasteredObjective>
             <MasteredObjective>solve problems using addition and subtraction of rational numbers</MasteredObjective>
@@ -123,7 +123,7 @@
         <MasteredGoal>
           <Conditions>when given text read aloud using simplified language, pictures paired with text, three answer choices, frequent redirection, and appropriate wait time and encouragement for responses</Conditions>
           <Behavior>demonstrate her understanding of interactions that occur between matter and energy</Behavior>
-          <Measure>70% of the time</Measure>
+          <Criterion>70% of the time</Criterion>
           <MasteredObjectives>
             <MasteredObjective>recognize that radiant energy from the Sun is transformed into chemical energy through the process of photosynthesis</MasteredObjective>
             <MasteredObjective>show the flow of energy through living systems of food chains</MasteredObjective>
@@ -135,121 +135,121 @@
   <MeasurableAnnualGoals>
     <MeasurableAnnualGoal number="1" focus="Applied Communications (Reading)" academic="1">
       <TimeFrame>From ARD year to ARD year</TimeFrame>
-      <Conditions>when given positive reinforcement, repeated verbal directions, and extended wait time for responses</Conditions>
+      <Conditions>when given clearly defined/consistent limits, repeated verbal directions, and visual and verbal reminders to stay on task</Conditions>
       <Behavior>Giselle will use a variety of strategies to demonstrate understanding of new high-frequency and vocabulary words</Behavior>
-      <Measure>with 70% accuracy</Measure>
+      <Criterion>with 70% accuracy</Criterion>
       <Objectives>
         <Objective code="1.1">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
           <Conditions>when given pictures paired with text, three (3) options for answer choices, and 18 high-frequency word questions from the current Unique Learning System Unit</Conditions>
           <Behavior>Giselle will select the correct high-frequency word by pointing to the correct word card when given a command to do so</Behavior>
-          <Measure>with 70% accuracy</Measure>
+          <Criterion>with 70% accuracy</Criterion>
         </Objective>
         <Objective code="1.2">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
           <Conditions>when given pictures paired with text, three (3) options for answer choices, and 20 randomly assorted vocabulary word cards with corresponding definitions (i.e., 10 words/10 definitions) from the current Unique Learning System Unit</Conditions>
           <Behavior>Giselle will match each vocabulary word card to its corresponding definition card</Behavior>
-          <Measure>with 70% accuracy</Measure>
+          <Criterion>with 70% accuracy</Criterion>
         </Objective>
       </Objectives>
     </MeasurableAnnualGoal>
     <MeasurableAnnualGoal number="2" focus="Applied Consumer Skills (Math)">
       <TimeFrame>From ARD year to ARD year</TimeFrame>
-      <Conditions></Conditions>
-      <Behavior></Behavior>
-      <Measure></Measure>
+      <Conditions>when given Clearly defined/consistent limits, repeated verbal directions, and visual and verbal reminders to stay on task</Conditions>
+      <Behavior>Giselle will apply mathematical process standards to develop an economic way of thinking useful in one’s life as a knowledgeable consumer</Behavior>
+      <Criterion>with 70% accuracy</Criterion>
       <Objectives>
         <Objective code="2.1">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
-          <Conditions></Conditions>
-          <Behavior></Behavior>
-          <Measure></Measure>
+          <Conditions>when given pictures paired with text, three (3) options for answer choices, and real or play money</Conditions>
+          <Behavior>Giselle will identify common U.S. coins and bills by name</Behavior>
+          <Criterion>with 70% accuracy</Criterion>
         </Objective>
         <Objective code="2.2">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
           <Conditions></Conditions>
-          <Behavior></Behavior>
-          <Measure></Measure>
+          <Behavior>Giselle will identify common U.S. coins and bills by value</Behavior>
+          <Criterion>with 70% accuracy</Criterion>
         </Objective>
       </Objectives>
     </MeasurableAnnualGoal>
-    <MeasurableAnnualGoal number="3" focus="Applied Environmental Awareness (Science)">
+    <MeasurableAnnualGoal number="3" focus="Applied Community Citizenship (Social Studies)">
       <TimeFrame>From ARD year to ARD year</TimeFrame>
-      <Conditions></Conditions>
-      <Behavior></Behavior>
-      <Measure></Measure>
+      <Conditions>when given positive reinforcement, repeated verbal directions, and visual and verbal reminders to stay on task</Conditions>
+      <Behavior>Giselle will recognize the physical characteristics of her local city</Behavior>
+      <Criterion>70% of the time</Criterion>
       <Objectives>
         <Objective code="3.1">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
-          <Conditions></Conditions>
-          <Behavior></Behavior>
-          <Measure></Measure>
+          <Conditions>when given pictures paired with text, three (3) options for answer choices, and a map of her local city detailing public service locations (e.g., police station, fire station, etc.)</Conditions>
+          <Behavior>Giselle will select the correct name for the positions on the map with missing labels</Behavior>
+          <Criterion>70% of the time</Criterion>
         </Objective>
         <Objective code="3.2">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
-          <Conditions></Conditions>
-          <Behavior></Behavior>
-          <Measure></Measure>
+          <Conditions>when given pictures paired with text, three (3) options for answer choices, and a map of her local city with an emphasis on the location of her school</Conditions>
+          <Behavior>Giselle will select the correct relative cardinal direction between the location of the school and a randomly selected location in the city</Behavior>
+          <Criterion>70% of the time</Criterion>
         </Objective>
       </Objectives>
     </MeasurableAnnualGoal>
-    <MeasurableAnnualGoal number="4" focus="Applied Community Citizenship (Social Studies)">
+    <MeasurableAnnualGoal number="4" focus="Applied Environmental Awareness (Science)">
       <TimeFrame>From ARD year to ARD year</TimeFrame>
-      <Conditions></Conditions>
-      <Behavior></Behavior>
-      <Measure></Measure>
+      <Conditions>when given positive reinforcement, repeated verbal directions, and visual and verbal reminders to stay on task</Conditions>
+      <Behavior>Giselle will recognize that natural events affect Earth’s systems</Behavior>
+      <Criterion>70% of the time</Criterion>
       <Objectives>
         <Objective code="4.1">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
-          <Conditions></Conditions>
-          <Behavior></Behavior>
-          <Measure></Measure>
+          <Conditions>when given pictures paired with text, three (3) options for answer choices, and an image depicting seasonal weather</Conditions>
+          <Behavior>Giselle will select the most appropriate seasonal clothing to wear for the image's season</Behavior>
+          <Criterion>70% of the time</Criterion>
         </Objective>
         <Objective code="4.2">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
-          <Conditions></Conditions>
-          <Behavior></Behavior>
-          <Measure></Measure>
+          <Conditions>when given pictures paired with text, three (3) options for answer choices, and an image depicting seasonal weather</Conditions>
+          <Behavior>Giselle will select the most appropriate seasonal activity for the image's season</Behavior>
+          <Criterion>70% of the time</Criterion>
         </Objective>
       </Objectives>
     </MeasurableAnnualGoal>
-    <MeasurableAnnualGoal number="5" focus="Applied Personal Health &amp; Hygeine (Health)">
+    <MeasurableAnnualGoal number="5" focus="Applied Personal Health &amp; Hygeine (Health)" functional="1">
       <TimeFrame>From ARD year to ARD year</TimeFrame>
-      <Conditions></Conditions>
-      <Behavior></Behavior>
-      <Measure></Measure>
+      <Conditions>when given positive reinforcement, repeated verbal directions, and visual and verbal reminders to stay on task</Conditions>
+      <Behavior>Giselle will recognize and use communication skills in building and maintaining healthy relationships</Behavior>
+      <Criterion>70% of the time</Criterion>
       <Objectives>
         <Objective code="5.1">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
-          <Conditions></Conditions>
-          <Behavior></Behavior>
-          <Measure></Measure>
+          <Conditions>when given clearly defined/consistent limits and extended wait time for responses</Conditions>
+          <Behavior>Giselle will use non-verbal communication skills such as making eye-contact with someone speaking to her explicitly across all school and classroom settings</Behavior>
+          <Criterion>70% of the time</Criterion>
         </Objective>
         <Objective code="5.2">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
-          <Conditions></Conditions>
-          <Behavior></Behavior>
-          <Measure></Measure>
+          <Conditions>when given clearly defined/consistent limits and extended wait time for responses</Conditions>
+          <Behavior>Giselle will use effective communication skills such as stating major talking points back to the speaker for clarification once the speaker finishes</Behavior>
+          <Criterion>70% of the time</Criterion>
         </Objective>
       </Objectives>
     </MeasurableAnnualGoal>
     <MeasurableAnnualGoal number="6" focus="Applied Marketable Skills">
       <TimeFrame>From ARD year to ARD year</TimeFrame>
-      <Conditions></Conditions>
+      <Conditions>when given positive reinforcement, repeated verbal directions, and visual and verbal reminders to stay on task</Conditions>
       <Behavior></Behavior>
-      <Measure></Measure>
+      <Criterion></Criterion>
       <Objectives>
         <Objective code="6.1">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
           <Conditions></Conditions>
           <Behavior></Behavior>
-          <Measure></Measure>
+          <Criterion></Criterion>
         </Objective>
         <Objective code="6.2">
           <TimeFrame>From ARD year to ARD year</TimeFrame>
           <Conditions></Conditions>
           <Behavior></Behavior>
-          <Measure></Measure>
+          <Criterion></Criterion>
         </Objective>
       </Objectives>
     </MeasurableAnnualGoal>

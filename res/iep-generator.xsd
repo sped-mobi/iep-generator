@@ -38,6 +38,7 @@
     <xs:attribute name="number" type="xs:int" />
     <xs:attribute name="focus" type="GoalFocus" />
     <xs:attribute name="transition" type="xs:boolean" use="optional" default="false" />
+    <xs:attribute name="functional" type="xs:boolean" use="optional" default="false" />
     <xs:attribute name="academic" type="xs:boolean" use="optional" default="false" />
   </xs:attributeGroup>
 
@@ -60,7 +61,7 @@
       <xs:element ref="TimeFrame" />
       <xs:element ref="Conditions" />
       <xs:element ref="Behavior" />
-      <xs:element ref="Measure" />
+      <xs:element ref="Criterion" />
     </xs:sequence>
   </xs:group>
 
@@ -83,7 +84,7 @@
   <xs:element name="TimeFrame" type="xs:string" />
   <xs:element name="Conditions" type="xs:string" />
   <xs:element name="Behavior" type="xs:string" />
-  <xs:element name="Measure" type="xs:string" />
+  <xs:element name="Criterion" type="xs:string" />
   <xs:element name="MasteredObjectives" type="MasteredObjectives" />
   <xs:element name="MasteredObjective" type="xs:string" />
   <xs:element name="GoalData" type="GoalData" />
@@ -167,7 +168,7 @@
     <xs:sequence>
       <xs:element ref="Conditions" />
       <xs:element ref="Behavior" />
-      <xs:element ref="Measure" />
+      <xs:element ref="Criterion" />
       <xs:element ref="MasteredObjectives" />
     </xs:sequence>
   </xs:complexType>
@@ -281,6 +282,7 @@
       <xs:enumeration value="Written Expression" />
       <xs:enumeration value="Math" />
       <xs:enumeration value="Science" />
+      <xs:enumeration value="Health" />
       <xs:enumeration value="Functional" />
       <xs:enumeration value="Social/Emotional" />
     </xs:restriction>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<IndividualizedEducationPlan>
+  <StudentData>
+    <FirstName>Karl</FirstName>
+    <LastName>Yeoman</LastName>
+    <Gender>M</Gender>
+    <GradeLevel>7th</GradeLevel>
+    <PrimaryDisability>Intellectual Disability</PrimaryDisability>
+    <SecondaryDisability>Speech Impairment</SecondaryDisability>
+  </StudentData>
+  <AccommodationsList>
+    <AccommodationCategory name="Adapt Classroom Instruction">
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Frequent and consistent breaks</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Extended wait time for responses</AccommodationItem>
+    </AccommodationCategory>
+    <AccommodationCategory name="Adapted or Additional Materials">
+      <AccommodationItem acs="1">Math Manipulatives</AccommodationItem>
+    </AccommodationCategory>
+    <AccommodationCategory name="Applied Learning Environment (ALE)">
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Accept incomplete, partial, or alternate assignments</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1">Alternate Curriculum - Unique Learning System®</AccommodationItem>
+      <AccommodationItem ppe="1" elec="1">Exemption from final/semester tests</AccommodationItem>      
+      <AccommodationItem ppe="1" elec="1">Grades based on Grading Rubric for Academic and Participation in a General Education Setting</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1">Grades based on Grading Rubric for Academic and Participation in a Special Education Setting</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Information presented orally</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Pictures paired with text</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Three (3) options for answer choices</AccommodationItem>
+    </AccommodationCategory>
+    <AccommodationCategory name="Manage Behavior">
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Clearly defined/consistent limits</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Repeated verbal directions</AccommodationItem>
+      <AccommodationItem ac="1" acc="1" acs="1" aea="1" aph="1" ams="1" ppe="1" elec="1">Visual and verbal reminders to stay on task</AccommodationItem>
+    </AccommodationCategory>
+  </AccommodationsList>
+  <PresentLevels>
+    <PresentLevel subject="Reading">
+      
+    </PresentLevel>
+    <PresentLevel subject="Social Studies">
+      
+    </PresentLevel>
+    <PresentLevel subject="Written Expression">
+      
+    </PresentLevel>
+    <PresentLevel subject="Math">
+      
+    </PresentLevel>
+    <PresentLevel subject="Science">
+      
+    </PresentLevel>
+    <PresentLevel subject="Health">
+
+    </PresentLevel>
+    <PresentLevel subject="Functional">
+      
+    </PresentLevel>
+    <PresentLevel subject="Social/Emotional">
+      
+    </PresentLevel>
+  </PresentLevels>
+  <MeasurableAnnualGoals>
+    <MeasurableAnnualGoal number="1" focus="Applied Communications (Reading)" academic="1">
+      <TimeFrame></TimeFrame>
+      <Conditions></Conditions>
+      <Behavior></Behavior>
+      <Criterion></Criterion>
+      <Objectives>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+    <MeasurableAnnualGoal number="2" focus="Applied Consumer Skills (Math)">
+      <TimeFrame></TimeFrame>
+      <Conditions></Conditions>
+      <Behavior></Behavior>
+      <Criterion></Criterion>
+      <Objectives>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+    <MeasurableAnnualGoal number="3" focus="Applied Community Citizenship (Social Studies)">
+      <TimeFrame></TimeFrame>
+      <Conditions></Conditions>
+      <Behavior></Behavior>
+      <Criterion></Criterion>
+      <Objectives>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+    <MeasurableAnnualGoal number="4" focus="Applied Environmental Awareness (Science)">
+      <TimeFrame></TimeFrame>
+      <Conditions></Conditions>
+      <Behavior></Behavior>
+      <Criterion></Criterion>
+      <Objectives>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+    <MeasurableAnnualGoal number="5" focus="Applied Personal Health &amp; Hygeine (Health)" functional="1">
+      <TimeFrame></TimeFrame>
+      <Conditions></Conditions>
+      <Behavior></Behavior>
+      <Criterion></Criterion>
+      <Objectives>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+    <MeasurableAnnualGoal number="6" focus="Functional">
+      <TimeFrame></TimeFrame>
+      <Conditions></Conditions>
+      <Behavior></Behavior>
+      <Criterion></Criterion>
+      <Objectives>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+        <Objective>
+          <TimeFrame></TimeFrame>
+          <Conditions></Conditions>
+          <Behavior></Behavior>
+          <Criterion></Criterion>
+        </Objective>
+      </Objectives>
+    </MeasurableAnnualGoal>
+  </MeasurableAnnualGoals>
+</IndividualizedEducationPlan>
